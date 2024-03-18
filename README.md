@@ -28,17 +28,17 @@ public class Main {
         Graph<Integer> graph = new Graph<>();
 
         // Create vertices
-        Vertex<Integer> v1 = new Vertex<>(1);
-        Vertex<Integer> v2 = new Vertex<>(2);
-        Vertex<Integer> v3 = new Vertex<>(3);
-        Vertex<Integer> v4 = new Vertex<>(4);
-        Vertex<Integer> v5 = new Vertex<>(5);
+        Vertex<Integer> vertex1 = new Vertex<>(1);
+        Vertex<Integer> vertex2 = new Vertex<>(2);
+        Vertex<Integer> vertex3 = new Vertex<>(3);
+        Vertex<Integer> vertex4 = new Vertex<>(4);
+        Vertex<Integer> vertex5 = new Vertex<>(5);
 
         // Add edges to the graph
-        graph.addEdge(v1, v2, 5);
-        graph.addEdge(v1, v3, 10);
-        graph.addEdge(v2, v4, 2);
-        graph.addEdge(v3, v5, 7);
+        graph.addEdge(vertex1, vertex2, 5);
+        graph.addEdge(vertex1, vertex3, 10);
+        graph.addEdge(vertex2, vertex4, 2);
+        graph.addEdge(vertex3, vertex5, 7);
 
         // Perform graph operations (DFS, BFS, Dijkstra, etc.)
         // Insert test cases here
